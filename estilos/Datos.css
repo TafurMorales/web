@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    color:#444444;
+}
+h2{
+    text-align: center;
+}
+table{
+     background-color:#dfdfdf;
+    text-align: center;
+
+    width: 90%;
+    margin:0px auto 0px auto ;
+    padding: 15px 10px 15px 10px;
+    margin-bottom: 10px;
+    line-height: 20px;}
+.GA{
+    background-color: orange;
+}
+td span{
+    color: red;
+}
+.Dg{
+    background-color: aqua;
+}
+.HM{
+   background-color: mediumseagreen; 
+}
+.HTML{
+background-color: orange;
+}
+.OG{
+    background-color: blue;
+
+}
+.AG{
+    background-color: yellow;
+}
+.CE{
+    background-color: green;
+}
+.DW{
+    background-color: orange;
+}
+.Comu{
+    background-color: goldenrod ;
+}
+
+.Ud {
+    
+    padding: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 25px;
+   }
+.Programa{
+    padding: 20px;
+
+text-align: justify;
+    margin-bottom: 20px;
+    line-height: 25px;
+   }
+   .Futbol{
+    color:red;
+  
+   }
+   p{
+    
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.pde{
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.valores{
+    padding: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 25px;
+    
+}
+.dp{
+    padding: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.ap{
+    padding: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.rd{
+    padding: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.datosp{
+    text-align: center;
+    
+    margin-bottom: 35px;
+    line-height: 45px;
+}
+.foto{
+    width: 200px;
+    
+    padding: 5px;
+    text-align: center;
+    
+}
+body{
+    background-image: url(../img/fondo2.jpg);
+}
