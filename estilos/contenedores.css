@@ -1,0 +1,56 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+#cabecera{
+    width: 1400px;
+    height: 150px;
+    margin: 0px auto;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    width: 150px;
+    height: 150px;
+}
+.titulo{
+    display: flex;
+    width: 950px;
+    height: 150px;
+    
+    float: left;
+    text-align: center;
+  
+}
+.redes{
+    float: right;
+}
+
+#principal{
+    width: 1000px;
+    height: 500px;
+    background-color: green;
+    margin: 0px auto ;
+}
+.contenido1{
+    float: left;
+    width: 34%;
+    height: 500px;
+    background-color: red;
+}
+.contenido2{
+    float:left;
+    width: 33%;
+    height: 500px;
+    background-color: yellow;
+}
+.contenido3{
+    float:right;
+    width: 33%;
+    height: 500px;
+    background-color:blue;
+}

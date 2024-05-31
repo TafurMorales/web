@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    padding: 0;
+    background: url(../img/paisaje3.webp);
+    color: #333; 
+}
+@media (max-width: 768px) {
+        .contenedor {
+        padding: 10px;
+    }
+
+    .campo-nombre,
+    .campo-edad-pais,
+    .Contraseña {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .campo-nombre label,
+    .campo-edad-pais label,
+    .Contraseña label {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .apellido-label,
+    .repetir-label {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .documento fieldset,
+    .sexo fieldset {
+        max-width: none;
+        }
+}
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+.contenedor {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: yellow;
+}
+  /* Campos de nombre y apellidos */
+.nombre {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.usuario label{
+    margin-right: 70px;
+}
+  /* Campo de correo electrónico */
+  .correo {
+    margin-top: 10px;
+} 
+.correo label {
+    margin-right: 90px;
+}
+  
+  /* Contraseña */
+.contraseña {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.contraseña label {
+    margin-right: 45px;
+}
+  
+.repetir-label {
+    margin-left: 110px;
+}
+.repetir-input {
+    margin-left: 10px;
+}
+.campo-nombre label {
+    margin-right: 70px;
+}
+.apellido-label {
+    margin-left: 110px;
+}
+  /* Campos de edad y país */
+.edad-pais {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.edad {
+    display: flex;
+    align-items: center;
+    margin-right: 110px;
+}
+.edad label {
+    margin-right: 90px;
+}
+.pais {
+    display: flex;
+    align-items: center;
+}
+  
+.pais label {
+    margin-right: 100px;
+}
+  
+  /* Documento de identidad */
+.documento fieldset {
+    text-align: left;
+    background-color: #f4f1ed;
+    color: firebrick;
+    border-color: darkgoldenrod;
+    border: 9px groove (internal value);
+    border-radius: 7px;
+    width: 100%;
+    max-width: 150px;
+    margin-top: 10px;
+}
+  /* Sexo */
+.sexo fieldset {
+    text-align: left;
+    background-color: #f4f1ed;
+    color: firebrick;
+    border-color: darkgoldenrod;
+    border: 9px groove (internal value);
+    border-radius: 7px;
+    width: 100%;
+    max-width: 100px;
+    margin-top: 10px;
+}
+.chek {
+    text-align: center;
+}
+  
+  /* Botones */
+.botones {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.botones button {
+    padding: 10px 20px;
+    background-color:goldenrod;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+.botones button:hover {
+    background-color: #45a049;
+}
+.opciones {
+    display: flex; /* Mostrar elementos en línea */
+    gap: 20px; /* Separación entre elementos */
+}
+.sexo,
+.documento,
+.num,
+.chek {
+    flex: 1; /* Permitir que los elementos crezcan según el espacio disponible */
+}
+  
